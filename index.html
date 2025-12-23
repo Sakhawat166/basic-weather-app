@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="inactive">
+    <nav id="search">
+      <form>
+        <label>
+          <input />
+          <button type="submit">search</button>
+        </label>
+      </form>
+      <div id="settings">
+        <button>
+          <img src="./assets/settings-gear.svg" alt="settings" />
+        </button>
+
+        <ul id="menu">
+          <li id="mode">Mode Dark</li>
+          <li id="unit">Unit F</li>
+          <li id="speed">Speed mph</li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <div id="today">
+        <div id="today1">
+          <div>
+            <img id="icon2d" />
+          </div>
+          <div id="temp">
+            <p id="t"></p>
+            <p id="f"></p>
+          </div>
+          <div id="set">
+            <div id="fl"></div>
+            <div id="wind"></div>
+            <div id="hum"></div>
+          </div>
+        </div>
+
+        <div id="today2">
+          <p id="place"></p>
+          <p id="weekday"></p>
+          <p id="cond"></p>
+        </div>
+      </div>
+      <div id="nextdays"></div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
